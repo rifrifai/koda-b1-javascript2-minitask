@@ -17,4 +17,4 @@ let detailPesanan = {
 let fakturPembayaran = {...dataPembeli, ...detailPesanan, statusPembayaran: "Lunas"}
 console.log(fakturPembayaran);
 const {nama, email, totalHarga} = fakturPembayaran
-// console.log(`struk dicetak untuk ${nama} (${email}) dengan total ${totalHarga}`)
+console.log(`struk dicetak untuk ${nama} (${email}) dengan total ${totalHarga}`)
