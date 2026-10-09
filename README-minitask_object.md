@@ -1,3 +1,14 @@
+# algoritma flowchart
+```mermaid
+flowchart TD
+    Start((Start)) --> Init[/"Inisialisasi r = 5 & phi = 3.14"/]
+    Init --> CallRingkasan["Panggil lingkaran.ringkasan()"]
+    CallRingkasan --> HitungLuas[Hitung Luas = phi * r * r]
+    HitungLuas --> Format[Hitung Keliling = 2 * phi * r]
+    Format --> Cetak[/Kirim ke Callback & Cetak Hasil/]
+    Cetak --> End(((Selesai)))
+```
+
 # minitask objcet 
 1. membuat objek lingkaran dengan property r dan pi serta membuat method dengan luas() dan keliling()
 2. di dalam method luas() terdapat mencetak nilai luas dengan rumus L = pi * r * r
